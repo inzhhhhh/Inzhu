@@ -1,0 +1,66 @@
+body{margin: 0;
+}
+h1{
+    font-size: 50px;
+    color: beige ;
+}
+.korobka{
+    color: #E75480;
+    padding: 0 70px;
+    text-align: center;
+    height: 100vh;
+    width: 50%;
+    margin: 0 20px 0 20px;
+}
+.hcenter{
+    align-items: center;
+}
+.wcenter{
+   justify-content: center; 
+}
+.dflex{
+    display: flex;
+    
+}
+.sectionHero{
+    background-color: black;
+}
+.prizrak{
+    position: absolute;
+    width: 80px;
+    left: 0px;
+}
+img{
+    width: 100%;
+    z-index: 6;
+}
+.krug{
+    z-index: 5;
+    position: absolute;
+    top: 500px;
+    height: 1px;
+    width: 1px;
+    left: calc(50% + 500px );
+    background-color: pink;
+    box-shadow: 0 0 220px 200px pink;
+
+}
+    
+.btn{
+    background-color: black;
+    color: pink;
+    font-size: 50px;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+.bigtext{
+    font-size: 25px;
+}
+.Projects{
+    background-color: pink;
+}
+.Skills{
+    background-color: pink;
+    color: black;
+    text-decoration: black;
+}
