@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body{margin: 0;
 }
 h1{
@@ -57,10 +60,33 @@ img{
     font-size: 25px;
 }
 .Projects{
-    background-color: pink;
+    background-color: black;
 }
 .Skills{
-    background-color: pink;
+    background-color:black;
     color: black;
     text-decoration: black;
+}
+nav{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    background-color: black;
+
+}
+.link{
+    font-size: 30px;
+    margin: 0 0 0 50px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.logo{
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    border: 1px solid rgb(59, 59, 59);
+    padding: 10px 60px;
 }
